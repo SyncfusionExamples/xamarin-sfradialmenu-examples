@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+              xmlns:radialMenu="clr-namespace:Syncfusion.SfRadialMenu.XForms;assembly=Syncfusion.SfRadialMenu.XForms"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:local="clr-namespace:RadialCommandSample"
+             mc:Ignorable="d"
+             x:Class="RadialCommandSample.MainPage">
+    <ContentPage.Content>
+        <Grid>
+            <radialMenu:SfRadialMenu x:Name="radialMenu"                              
+                             CenterButtonText="Edit"
+                             CenterButtonFontSize="15">
+                <radialMenu:SfRadialMenu.Items>
+                    <radialMenu:SfRadialMenuItem  Command="{Binding Item1Command}" CommandParameter="Cut is tapped"  Text="Cut"
+                                         FontSize="15"/>
+                    <radialMenu:SfRadialMenuItem Command="{Binding Item2Command}" CommandParameter="Copy is tapped"  Text="Copy"
+                                         FontSize="15"/>
+                    <radialMenu:SfRadialMenuItem Command="{Binding Item3Command}" CommandParameter="Paste is tapped" Text="Paste"
+                                         FontSize="15"/>
+                    <radialMenu:SfRadialMenuItem Command="{Binding Item4Command}" CommandParameter="Crop is tapped" Text="Crop"
+                                         FontSize="15"/>
+                    <radialMenu:SfRadialMenuItem Command="{Binding Item5Command}" CommandParameter="Paint is tapped" Text="Paint"
+                                         FontSize="15"/>
+                </radialMenu:SfRadialMenu.Items>
+            </radialMenu:SfRadialMenu>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>
