@@ -9,9 +9,7 @@ This project uses the following Syncfusion controls:
 * [SfRadialMenu](https://www.syncfusion.com/xamarin-ui-controls/xamarin-radial-menu) - To show the radial menu
 
 ## Screenshots
-<img src="Images/xamarin-forms-scheduler-day-view.png"  Width="250"/> <img src="Images/xamarin-forms-scheduler-week-view.png" Width="250" /> <img src="Images/xamarin-forms-scheduler-work-week-view.png" Width="250" />
-
-<img src="Images/xamarin-forms-scheduler-month-view.png" Width="250" /> <img src="Images/xamarin-forms-scheduler-reschedule-appointments.png" Width="250" /> <img src="Images/xamarin-forms-scheduler-add-appointment.png" Width="250" />
+<img src="Images/radialmenu1.png"  Width="250"/> <img src="Images/radialmenu2.png" Width="250" /> <img src="Images/radialmenu3.png" Width="250" />
 
 ## Supported platforms
 
