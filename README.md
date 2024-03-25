@@ -1,7 +1,7 @@
 # Xamarin sfradialmenu examples
 Contains RadialMenu control samples
 
-# Adding SfRadialMenu reference
+## Adding SfRadialMenu reference
 You can add SfRadialMenu reference using one of the following methods:
 
 ## Method 1: Adding SfRadialMenu reference from nuget.org
@@ -16,7 +16,7 @@ Syncfusion also provides Xamarin Toolbox. Using this toolbox, you can drag the S
 
 If you prefer to manually reference the assemblies instead referencing from NuGet, add the following assemblies in respective projects.
 
-# Creating a simple radial menu
+## Creating a simple radial menu
 The SfRadialMenu control is configured entirely in C# code or in XAML markup. The following steps explain how to create SfRadialMenu and configure its elements:
 
 ## Create the project
